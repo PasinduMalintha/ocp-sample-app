@@ -10,5 +10,5 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  storageClassName: unity-virt2507px294y-iscsi
+  storageClassName: unity-iscsi
   volumeMode: Filesystem
