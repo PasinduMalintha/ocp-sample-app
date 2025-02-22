@@ -28,4 +28,4 @@ spec:
       volumes:
       - name: pvc-sample-storage
         persistentVolumeClaim:
-          claimName: volsync-sampleapp01-dst
+          claimName: pvc-sample-storage
