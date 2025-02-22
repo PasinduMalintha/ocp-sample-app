@@ -4,9 +4,14 @@ metadata:
   labels:
     app: pvc-sample
   name: pvc-sample-storage
+  namespace: sampleapp01
 spec:
   accessModes:
   - ReadWriteOnce
+  dataSourceRef:
+    kind: ReplicationDestination
+    apiGroup: volsync.backube
+    name: sampleapp01
   resources:
     requests:
       storage: 1Gi
