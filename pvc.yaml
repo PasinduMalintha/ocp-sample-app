@@ -10,5 +10,5 @@ spec:
   resources:
     requests:
       storage: 1Gi
-  storageClassName: unity-iscsi
+  storageClassName: ocs-storagecluster-ceph-rbd
   volumeMode: Filesystem
